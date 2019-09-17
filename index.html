@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Newton's Method</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/@babel/standalone@7.6.0/babel.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.sound.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/6.2.1/math.min.js"></script>
+  </head>  
+  
+  <body>
+    <label for="equation">Equation: </label>
+    <input type="text" id="equation">
+    <label for="error">Maximum x<sub>n</sub>-x<sub>n-1</sub>: </label>
+    <input type="text" id="error" size="5">
+    <label for="initialvalue">Initial Value: </label>
+    <input type="text" id = "initialValue" size="2">
+    <button onclick="startCalculation()">Start Calculation</button>
+    <br><br>
+    <script src="./script.js" type="text/babel" data-presets="es2015"></script>
+  </body>
+</html>
