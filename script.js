@@ -16,6 +16,8 @@ let funcString = "";
 let n = 0; //iteration value
 let error = 1000; //dummy value
 
+//while ()
+
 function setup() {
   createCanvas(GAME_WIDTH, GAME_HEIGHT);
   windowResized();
